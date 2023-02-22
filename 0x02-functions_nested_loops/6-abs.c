@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _abc - check main
+ *_abs - check main
  * @r: integer input
  * Description: This function returns absolute valur
  * Return: the absolute value of number r
