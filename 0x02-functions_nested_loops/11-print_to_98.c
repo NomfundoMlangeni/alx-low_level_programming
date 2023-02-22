@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * print_to_98 - check main
- * @n: a input integer
- * description: function thet prints all natural numbers
+ * print_to_98 - Check Main
+ * @n: A input integer
+ * Description: function that prints all natural numbers
  * from n to 98, followed by a new line.
- * Return: nothing
+ * Return: Nothing
  */
 void print_to_98(int n)
 {
@@ -14,11 +14,11 @@ void print_to_98(int n)
 	{
 		for (; n <= 98; n++)
 		{
-		printf("%d", n);
+			printf("%d", n);
 
-		if (n == 98)
-			continue;
-		printf(",");
+			if (n == 98)
+				continue;
+			printf(", ");
 		}
 		printf("\n");
 	}
@@ -30,9 +30,8 @@ void print_to_98(int n)
 
 			if (n == 98)
 				continue;
-			printf(",");
+			printf(", ");
 		}
 		printf("\n");
 	}
 }
-
