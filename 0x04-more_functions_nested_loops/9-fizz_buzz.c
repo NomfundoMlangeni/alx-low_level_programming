@@ -2,13 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - print the number from 1 to 100
- * 3 multiples print Fizz instead of the number
- * 5 print Buzz instead of the number
- * Return: always 0
+ * main - prints a Fizz Buzz program
+ * Return: always 0 (success)
  */
+
 int main(void)
+
 {
+
+
 int x;
 
 for (x = 1; x <= 100; x++)
@@ -27,7 +29,7 @@ printf("Buzz");
 }
 else
 {
-printf(" % d", x);
+printf("%d", x);
 }
 if (x != 100)
 {
