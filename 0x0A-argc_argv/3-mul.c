@@ -56,7 +56,7 @@ return (n);
  * @argc: number of arguments
  * @argv: array of argumets
  *
- * Return: 0 (success), 1 (error)
+ * Return: 0 (success), 1 (Error)
  */
 
 int main(int argc, char *argv[])
@@ -66,7 +66,7 @@ int result, num1, num2;
 
 if (argc < 3 || argc > 3)
 {
-printf("error\n");
+printf("Error\n");
 
 return (1);
 }
